@@ -1,0 +1,13 @@
+# Server settings
+server:
+  port: 8080
+
+# Kafka config
+kafka:
+  bootstrap:
+# For applications within Docker network, use kafka:9092, for applications outside, use localhost:29092
+#    servers: localhost:29092
+    servers: kafka:9092
+  topic:
+    name: ems-employee
+

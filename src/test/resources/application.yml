@@ -1,0 +1,7 @@
+kafka:
+  bootstrap:
+    servers:  localhost:9092
+    port: 9092
+  topic:
+    name: ems-employee-test
+
