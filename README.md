@@ -7,6 +7,8 @@ A simple Employees Management System `EMS` provides Restful APIs for employees' 
 * [Architecture](#architecture)
 * [Technologies](#technologies)
 * [Getting Started](#getting-started)
+* [Running the project using Docker and Docker Compose](#running-the-project-using-docker-and-docker-compose)
+* [Running the project for Development using Maven](#running-the-project-for-development-using-maven)
 * [About me](#about-me)
 * [Acknowledgments](#acknowledgments)
 
@@ -61,7 +63,7 @@ The application is created using the following technologies:
 
 ## Getting Started
 
-### Running the project using Docker and Docker-compose
+### Running the project using Docker and Docker Compose
 The project includes [*dockerfile*](dockerfile) file and [*docker-compose.yml*](docker-compose.yml) file, so you can use `Docker Compose` to start up the application with required softwares. No installation needed.
 
 #### Prerequisites
@@ -179,8 +181,21 @@ git clone https://github.com/SayedBaladoh/Employees-Management-System.git
 	mvn clean
 	mvn test
 	```
+7.  **Generate Code coverage Analysis Report with Jacoco and Sonarqube**
 
-7. **Run the EMS application**
+	Type the following command on the command line with path to the root of this project:
+
+	```bash
+	mvn clean install sonar:sonar 
+	```
+
+	Wait until build process has finished.
+
+	After getting a Build Success message, There are two link for you to open sonarqube on browser. click that link and automatically open your browser.
+	
+	Or go to localhost:9000 on the Web Browser and Click on the Project Name to see the detailed report.
+	
+8. **Run the EMS application**
 
 	You can run the EMS spring boot app by typing the following command:
 
@@ -191,7 +206,7 @@ git clone https://github.com/SayedBaladoh/Employees-Management-System.git
 	The server will start on port `8080` by default, So you'll be able to access the complete application on `http://localhost:8080`. 
 	If you changed the port in  `src/main/resources/application.properties` file, use your custom port `http://localhost:port`.
 
-8. **Package the EMS application**
+9. **Package the EMS application**
 
 	You can also package the application in the form of a `jar` file and then run it like so -
 
