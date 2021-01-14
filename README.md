@@ -21,7 +21,6 @@ The other states (State machine) for A given Employee are:
 - APPROVED
 - ACTIVE
 
-
 ## Architecture
 The next diagrams shows the system architecture:
 
@@ -38,6 +37,10 @@ Employees Management REST APIs Service
  1. **Controller:** is the presentation layer where the end points are located.
  2. **Service:** is the service layer where the business logic resides.
  3. **Repository:** is the persistence layer where the CRUD repository is located.
+
+![Employee State Machine](readme-images/StatesMachine.png)
+
+Employee State Machine
  
 ## Technologies
 
