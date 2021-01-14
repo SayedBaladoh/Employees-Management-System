@@ -24,9 +24,11 @@ The other states (State machine) for A given Employee are:
 The next diagrams shows the system architecture:
 
 ![Employees Management System Architecture](readme-images/EMS-Architecture.png)
+
 Employees Management System
 
 ![Employees Management REST APIs Service Architecture Diagram](readme-images/EMS-API.png)
+
 Employees Management REST APIs Service
 
 **The REST APIs Service follows the REST architectural style**:
@@ -220,9 +222,9 @@ To access the application use the following end-points:
 
 I am Sayed Baladoh - Phd. Senior / Technical Lead Software Engineer. I like software development. You can contact me via:
 
-* [LinkedIn+](https://www.linkedin.com/in/SayedBaladoh/)
-* [Mail](sayedbaladoh@yahoo.com)
-* [Phone](+20 1004337924)
+* [LinkedIn](https://www.linkedin.com/in/SayedBaladoh/)
+* [Mail](mailto:sayedbaladoh@yahoo.com)
+* [Phone +20 1004337924](tel:+201004337924)
 
 _**Any improvement or comment about the project is always welcome! As well as others shared their code publicly I want to share mine! Thanks!**_
 
